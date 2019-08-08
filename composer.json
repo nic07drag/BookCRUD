@@ -1,47 +1,50 @@
 {
     "name": "tnes/book-crud",
-    "description": ":New Book CRUD package",
-    "license": "license",
+    "type": "library",
+    "description": "Book CRUD package",
+    "keywords": [
+        "TNES",
+        "BookCRUD"
+    ],
+    "homepage": "https://github.com/nic07drag/BookCRUD",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Dr NIC",
+            "name": "dr NIC",
             "email": "nic07drag@yahoo.com",
             "homepage": "https://tnes.com.vn",
             "role": "Technician"
         }
     ],
-    "homepage": "https://github.com/nic07drag/BookCRUD",
-    "keywords": ["Laravel", "BookCRUD"],
     "require": {
-        "illuminate/support": "~5"
+        "illuminate/support": "~5.1",
+        "php" : "~5.6|~7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~7.0",
-        "mockery/mockery": "^1.1",
-        "orchestra/testbench": "~3.0",
-        "sempro/phpunit-pretty-print": "^1.0"
+        "phpunit/phpunit" : "~4.0||~5.0||~6.0",
+        "squizlabs/php_codesniffer": "^2.3"
     },
     "autoload": {
         "psr-4": {
-            "TNES\\BookCRUD\\": "src/"
+            "TNES\\BookCRUD\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TNES\\BookCRUD\\Tests\\": "tests"
+            "TNES\\BookCRUD\\": "tests"
         }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
     },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
         }
-        "laravel": {
-            "providers": [
-                "TNES\\BookCRUD\\BookCRUDServiceProvider"
-            ],
-            "aliases": {
-                "BookCRUD": "TNES\\BookCRUD\\Facades\\BookCRUD"
-            }
-        }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
