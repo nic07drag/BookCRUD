@@ -9,7 +9,7 @@
             "homepage": "https://tnes.com.vn"
         }
     ],
-    "homepage": "https://github.com/tnes/bookcrud",
+    "homepage": "https://github.com/nic07drag/bookcrud",
     "keywords": ["Laravel", "BookCRUD"],
     "require": {
         "illuminate/support": "~5"
