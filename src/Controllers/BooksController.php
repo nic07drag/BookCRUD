@@ -36,7 +36,7 @@ class BooksController extends Controller
      */
     public function create()
     {
-        return view('books.create');
+        return view('book-crud::books.create');
     }
 
     /**
@@ -60,7 +60,7 @@ class BooksController extends Controller
     public function show($id)
     {
         $item = $this->service->find($id);
-        return view('books.show', compact('item'));
+        return view('book-crud::books.show', compact('item'));
     }
 
     /**
@@ -72,7 +72,7 @@ class BooksController extends Controller
     public function edit($id)
     {
         $item = $this->service->find($id);
-        return view('books.edit', compact('item'));
+        return view('book-crud::books.edit', compact('item'));
     }
 
     /**
