@@ -1,6 +1,6 @@
 <?php
 
-namespace TNES\BookCRUD\Repositories;
+namespace Nic07drag\BookCRUD\Repositories;
 
 interface BookRepositoryContract
 {

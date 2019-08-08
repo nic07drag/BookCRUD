@@ -1,6 +1,6 @@
 <?php
 
-namespace TNES\BookCRUD\Requests;
+namespace Nic07drag\BookCRUD\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

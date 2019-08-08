@@ -1,13 +1,13 @@
 <?php
 
-namespace TNES\BookCRUD\Providers;
+namespace Nic07drag\BookCRUD\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use TNES\BookCRUD\Services\BookService;
-use TNES\BookCRUD\Repositories\BookRepository;
-use TNES\BookCRUD\Services\BookServiceContract;
-use TNES\BookCRUD\Providers\RouteServiceProvider;
-use TNES\BookCRUD\Repositories\BookRepositoryContract;
+use Nic07drag\BookCRUD\Services\BookService;
+use Nic07drag\BookCRUD\Repositories\BookRepository;
+use Nic07drag\BookCRUD\Services\BookServiceContract;
+use Nic07drag\BookCRUD\Providers\RouteServiceProvider;
+use Nic07drag\BookCRUD\Repositories\BookRepositoryContract;
 
 class BookCRUDServiceProvider extends ServiceProvider
 {

@@ -1,9 +1,9 @@
 <?php
 
 
-namespace TNES\BookCRUD\Repositories;
+namespace Nic07drag\BookCRUD\Repositories;
 
-use TNES\BookCRUD\Models\Book;
+use Nic07drag\BookCRUD\Models\Book;
 
 
 class BookRepository implements BookRepositoryContract

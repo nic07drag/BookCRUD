@@ -1,6 +1,6 @@
 <?php
 
-namespace TNES\BookCRUD\Facades;
+namespace Nic07drag\BookCRUD\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace TNES\BookCRUD\Controllers;
+namespace Nic07drag\BookCRUD\Controllers;
 
-use TNES\BookCRUD\Requests\CreateBookRequest;
-use TNES\BookCRUD\Requests\EditBookRequest;
-use TNES\BookCRUD\Services\BookServiceContract;
+use Nic07drag\BookCRUD\Requests\CreateBookRequest;
+use Nic07drag\BookCRUD\Requests\EditBookRequest;
+use Nic07drag\BookCRUD\Services\BookServiceContract;
 use Illuminate\Http\Request;
-use App\Book;
+use App\Http\Controllers\Controller;
 
 class BooksController extends Controller
 {

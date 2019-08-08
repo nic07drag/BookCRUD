@@ -1,6 +1,6 @@
 <?php
 
-namespace TNES\BookCRUD\Services;
+namespace Nic07drag\BookCRUD\Services;
 
 interface BookServiceContract
 {

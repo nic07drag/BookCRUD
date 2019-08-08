@@ -1,6 +1,6 @@
 <?php
 
-namespace TNES\BookCRUD\Providers;
+namespace Nic07drag\BookCRUD\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'TNES\BookCRUD\Controllers';
+    protected $namespace = 'Nic07drag\BookCRUD\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

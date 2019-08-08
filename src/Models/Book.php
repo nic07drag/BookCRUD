@@ -1,6 +1,6 @@
 <?php
 
-namespace TNES\BookCRUD\Models;
+namespace Nic07drag\BookCRUD\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
