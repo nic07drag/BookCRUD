@@ -1,15 +1,16 @@
 {
-    "name": "nic07drag/bookcrud",
+    "name": "tnes/book-crud",
     "description": ":New Book CRUD package",
     "license": "license",
     "authors": [
         {
             "name": "Dr NIC",
             "email": "nic07drag@yahoo.com",
-            "homepage": "https://tnes.com.vn"
+            "homepage": "https://tnes.com.vn",
+            "role": "Technician"
         }
     ],
-    "homepage": "https://github.com/nic07drag/bookcrud",
+    "homepage": "https://github.com/nic07drag/BookCRUD",
     "keywords": ["Laravel", "BookCRUD"],
     "require": {
         "illuminate/support": "~5"
@@ -31,6 +32,9 @@
         }
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
         "laravel": {
             "providers": [
                 "TNES\\BookCRUD\\BookCRUDServiceProvider"
