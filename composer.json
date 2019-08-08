@@ -1,18 +1,18 @@
 {
     "name": "nic07drag/book-crud",
     "type": "library",
-    "description": "Book CRUD package",
+    "description": "Book CRUD package demo",
     "keywords": [
-        "TNES",
+        "Nic07drag",
         "BookCRUD"
     ],
     "homepage": "https://github.com/nic07drag/BookCRUD",
     "license": "MIT",
     "authors": [
         {
-            "name": "dr NIC",
+            "name": "Dr Nic",
             "email": "nic07drag@yahoo.com",
-            "homepage": "https://tnes.com.vn",
+            "homepage": "https://123az.vn",
             "role": "Technician"
         }
     ],
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TNES\\BookCRUD\\": "src"
+            "Nic07drag\\BookCRUD\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TNES\\BookCRUD\\": "tests"
+            "Nic07drag\\BookCRUD\\": "tests"
         }
     },
     "scripts": {

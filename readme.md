@@ -12,7 +12,7 @@ This is where your description should go. Take a look at [contributing.md](contr
 Via Composer
 
 ``` bash
-$ composer require tnes/bookcrud
+$ composer require nic07drag/bookcrud
 ```
 
 ## Usage
@@ -44,14 +44,14 @@ If you discover any security related issues, please email author email instead o
 
 license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/tnes/bookcrud.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/tnes/bookcrud.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/tnes/bookcrud/master.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/nic07drag/bookcrud.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/nic07drag/bookcrud.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/nic07drag/bookcrud/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/tnes/bookcrud
-[link-downloads]: https://packagist.org/packages/tnes/bookcrud
-[link-travis]: https://travis-ci.org/tnes/bookcrud
+[link-packagist]: https://packagist.org/packages/nic07drag/bookcrud
+[link-downloads]: https://packagist.org/packages/nic07drag/bookcrud
+[link-travis]: https://travis-ci.org/nic07drag/bookcrud
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/tnes
+[link-author]: https://github.com/nic07drag
 [link-contributors]: ../../contributors
