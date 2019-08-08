@@ -1,0 +1,43 @@
+{
+    "name": "tnes/book-crud",
+    "description": ":New Book CRUD package",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Dr NIC",
+            "email": "nic07drag@yahoo.com",
+            "homepage": "https://tnes.com.vn"
+        }
+    ],
+    "homepage": "https://github.com/tnes/bookcrud",
+    "keywords": ["Laravel", "BookCRUD"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TNES\\BookCRUD\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TNES\\BookCRUD\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TNES\\BookCRUD\\BookCRUDServiceProvider"
+            ],
+            "aliases": {
+                "BookCRUD": "TNES\\BookCRUD\\Facades\\BookCRUD"
+            }
+        }
+    }
+}
